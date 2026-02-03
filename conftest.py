@@ -4,8 +4,8 @@ Pytest fixtures for Playwright E2E tests.
 Demonstrates:
 - page fixture from pytest-playwright (browser, context, page)
 - Custom fixtures for page objects and authenticated session
-- Trace on failure is enabled via pytest.ini (--tracing=retain-on-failure)
-- Retries are enabled via pytest.ini (--retries=1)
+- Trace on failure is enabled via pytest.ini (--tracing retain-on-failure)
+- Retries: use pytest-rerunfailures and run with --reruns 1 if desired
 """
 
 import pytest
